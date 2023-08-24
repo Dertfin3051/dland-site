@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@600&family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@600&family=Play:wght@700&family=Russo+One&display=swap');
 
 * {
     padding: 0;
@@ -29,6 +30,10 @@ body {
 
 .content-type1 {
     padding: 30px;
+}
+
+header {
+    margin-bottom: 30px;
 }
 
 .navigation {
@@ -72,6 +77,7 @@ a {
 }
 
 .button_1 {
+    display: inline-block;
     width: 234px;
     height: 70px;
     background-image: url(../img/button_1.png);
@@ -81,4 +87,22 @@ a {
 
 .button_1:hover {
     background-image: url(../img/button_1-hover.png);
+}
+
+.section-1 {
+    padding-top: 30px;
+    color: white;
+}
+
+.sect1-content {
+    display: inline-block;
+    font-family: 'Play', sans-serif ;
+    font-size: 2.5vw;
+    padding-bottom: 30px;
+}
+
+.section-2 {
+    padding-top: 30;
+    color: white;
+    font-family: 
 }
