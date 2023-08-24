@@ -74,12 +74,11 @@ a {
 .button_1 {
     width: 234px;
     height: 70px;
-    background-image: url(../img/button_1.svg);
+    background-image: url(../img/button_1.png);
     background-size: cover;
     transition: 0.5s;
 }
 
 .button_1:hover {
-    background-image: url(../img/button_1-hover.svg);
+    background-image: url(../img/button_1-hover.png);
 }
-
