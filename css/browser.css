@@ -7,3 +7,9 @@
     background-color: #0600fe;
     border-radius: 40px;
 }
+
+
+/*Плавная прокрутка */
+html {
+    scroll-behavior: smooth; 
+}
