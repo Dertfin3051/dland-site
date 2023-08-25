@@ -20,12 +20,19 @@ body {
     width: 100vw;
     height: 100vh;
     background-image: url(../img/background_2.png);
+    vertical-align: middle;
 }
 
 .container-3{
     width: 100vw;
     height: 100vh;
     background-image: url(../img/background_3.png);
+}
+
+.container-4 {
+    width: 100vw;
+    height: 104vh;
+    background-image: url(../img/background_4.png);
 }
 
 .content-type1 {
@@ -131,4 +138,34 @@ a {
 .unique-things li {
     margin-bottom: 2vh;
     margin-left: 30px;
+}
+
+.rules-title {
+    color: white;
+    font-family: "Russo One", sans-serif;
+    font-size: 3vw;
+    margin-bottom: 30px;
+}
+
+.rules {
+    font-family: "minecraft", sans-serif;
+    color: white;
+    display: block;
+    font-size: 1.5vw;
+}
+
+.punishment {
+    font-family: "minecraft", sans-serif;
+    color: white;
+    display: block;
+    font-size: 1vw;
+    margin-bottom: 1.5vh;
+}
+
+.punishment-nm{
+    font-family: "minecraft", sans-serif;
+    color: white;
+    display: block;
+    font-size: 1vw;
+    margin-bottom: 0.1vh;
 }
