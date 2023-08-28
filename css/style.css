@@ -311,12 +311,14 @@ a {
     .footer-title {
         margin-bottom: 5px;
     }
+
+    .navigation a{
+        font-size: 3.2vw;
+    }
 }
 
 @media screen and (max-width: 480px) {
-    .navigation a{
-        font-size: 3vw;
-    }
+    
 
     .navigation li {
         margin-right: 15px;
