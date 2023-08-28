@@ -31,8 +31,14 @@ body {
 
 .container-4 {
     width: 100vw;
-    height: 104vh;
+    height: 111vh;
     background-image: url(../img/background_4.png);
+}
+
+.container-5{
+    width: 100vw;
+    height: 30vh;
+    background-color: #0a0a0a;
 }
 
 .content-type1 {
@@ -90,10 +96,18 @@ a {
     background-image: url(../img/button_1.png);
     background-size: cover;
     transition: 0.5s;
+    margin-right: 0.25vw;
 }
 
 .button_1:hover {
     background-image: url(../img/button_1-hover.png);
+}
+
+.btn-1-info {
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'minecraft';
+    font-size: 2vh;
 }
 
 .section-1 {
@@ -168,4 +182,25 @@ a {
     display: block;
     font-size: 1vw;
     margin-bottom: 0.1vh;
+}
+
+.footer-title {
+    color: white;
+    font-family: "Russo one", sans-serif;
+    font-size: 2vw;
+    margin-bottom: 30px;
+}
+
+.footer-content {
+    color: white;
+    font-family: "Franklin Gothic Medium", sans-serif;
+    font-size: 1vw;
+}
+
+.footer-content p {
+    margin-bottom: 10px;
+}
+
+.footer-content p:last-child {
+    margin-bottom: 0px;
 }
