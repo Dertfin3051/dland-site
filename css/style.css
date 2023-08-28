@@ -8,6 +8,7 @@
 
 body {
     overflow-x: hidden;
+    width: 100vw;
 }
 
 .container-1{
@@ -203,4 +204,79 @@ a {
 
 .footer-content p:last-child {
     margin-bottom: 0px;
+}
+
+@media screen and (max-width: 1919px){
+    .container-1{
+        height: max-content;
+    }
+    .container-2{
+        height: max-content;
+    }
+    .container-3{
+        height: max-content;
+    }
+    .container-4{
+        height: max-content;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .container-4{
+        height: max-content;
+    }
+
+    .logo {
+        width: 15%;
+    }
+
+    .navigation li {
+        font-size: 30px;
+    }
+
+    .navigation li:hover {
+        font-size: 35px;
+    }
+
+    .sect1-content {
+        font-size: 3vw;
+    }
+
+    .section-2 {
+        font-size: 3vw;
+    }
+
+    .button_1 {
+        width: 270px;
+        height: 80px;
+        margin-right: 0.45vw;
+    }
+
+    .unique-things-title {
+        font-size: 4vw;
+    }
+
+    .unique-things {
+        font-size: 2vw;
+    }
+
+    .rules-title {
+        font-size: 3.5vw;
+    }
+    
+    .rules {
+        font-size: 2vw;
+    }
+
+    .punishment {
+        font-size: 1.5vw;
+    }
+
+    .footer-title {
+        font-size: 2.5vw;
+    }
+
+    .footer-content {
+        font-size: 1.5vw;
+    }
 }
