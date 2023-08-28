@@ -315,7 +315,7 @@ a {
 
 @media screen and (max-width: 480px) {
     .navigation a{
-        font-size: 3.5vw;
+        font-size: 3vw;
     }
 
     .navigation li {
