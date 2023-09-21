@@ -15,19 +15,42 @@
 }
 
 .title-1 {
-    font-size: 10vh;
+    font-size: 5em
 }
 
 .title-2 {
-    font-size: 7vh;
+    font-size: 3em;
 }
 
 .title-3 {
-    font-size: 2vh;
+    font-size: 0.75em;
     margin-bottom: 30px;
 }
 
 .title-4 {
-    font-size: 2vh; 
+    font-size: 0.75em; 
 }
 
+@media screen and (max-width: 640px) {
+    .title-1 {
+        font-size: 4em
+    }
+    
+    .title-2 {
+        font-size: 2em;
+    }
+    
+    .title-3 {
+        font-size: 0.9em;
+        margin-bottom: 30px;
+    }
+    
+    .title-4 {
+        font-size: 0.9em; 
+    }
+
+    .video {
+        width: 400px;
+        height: 225px;
+    }
+}
